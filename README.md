@@ -40,11 +40,10 @@ The skeletal formula, also called line-angle formula or shorthand formula, of an
 
 | Name      | SMILES String | Molecular Formula | Skeletal Formula |
 | :-----------: | :-----------: | :----------:| :----------: |
-| ethanol      | CCO       | CH<sub>3</sub>CH<sub>2</sub>OH | ![](/ethanol.jpg)
- |
-| acetic acid   | CC(=O)O | CH<sub>3</sub>COOH |  |
-|benzene | c1ccccc1|C<sub>6</sub>H<sub>6</sub>|  |
-|cyclohexane | C1CCCCC1 | C<sub>6</sub>H<sub>12</sub>|   |
+| ethanol      | CCO       | CH<sub>3</sub>CH<sub>2</sub>OH |![](/ethanol.png)|
+| acetic acid   | CC(=O)O | CH<sub>3</sub>COOH | ![](/acetic_acid.png) |
+|benzene | c1ccccc1|C<sub>6</sub>H<sub>6</sub>|![](/benzene.png) |
+|cyclohexane | C1CCCCC1 | C<sub>6</sub>H<sub>12</sub>| ![](/cyclohexane.png) |
 
 ## Background <a name="Background"></a>
 “Is there a Crisis in Organic Chemistry Education?” This provocatively titled session from the 2016 American Chemical Society national meeting drew attention from many in attendance. In fact, this question continues to be a polarizing topic of conversation in chemical education. 
