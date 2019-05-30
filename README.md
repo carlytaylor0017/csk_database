@@ -102,6 +102,7 @@ This is a sub paragraph, formatted in heading 3 style
 | :-----------: | :-----------: |
 |C=CCC1(CC=C)c2ccccc2-c2ccccc12	| ![](/313754005.png)|
 |Cc1ccc(C=C)c2ccccc12 | ![](/313870557.png)|
+|Cc1ccccc1\C=C\c1ccccc1	| ![](/32717.png)| 
 
 9,9-bis(prop-2-enyl)fluorene
 313754005.png
@@ -111,6 +112,9 @@ C=CCC1(CC=C)c2ccccc2-c2ccccc12
 Cc1ccc(C=C)c2ccccc12
 313870557.png
 
+32717.png
+Cc1ccccc1\C=C\c1ccccc1	
+1-methyl-2-[(E)-2-phenylethenyl]benzene
 
 ### Matching SMILES Strings to IUPAC Names <a name="iupac_names"></a>
 This paragraph
