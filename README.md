@@ -93,16 +93,11 @@ These symbols are the most frequently seen in this dataset.
 ### Matching SMILES Strings to Skeletal Formulae <a name="skeletal_images"></a>
 This is a sub paragraph, formatted in heading 3 style
 
-| SMILES      | Image URL | 
-| :-----------: |:-----------: |
-|C=CCC1(CC=C)c2ccccc2-c2ccccc12| https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/C=CCC1(CC=C)c2ccccc2-c2ccccc12/PNG |
-|Cc1ccc(C=C)c2ccccc12| https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/Cc1ccc(C=C)c2ccccc12/PNG |
-
-| SMILES      | Skeletal Formula |
-| :-----------: | :-----------: |
-|C=CCC1(CC=C)c2ccccc2-c2ccccc12	| ![](images/313754005.png)|
-|Cc1ccc(C=C)c2ccccc12 | ![](images/313870557.png)|
-|Cc1ccccc1\C=C\c1ccccc1	| ![](images/32717.png)| 
+| SMILES      | Image URL | Skeletal Formula | 
+| :-----------: |:-----------: | :-----------: |
+|C=CCC1(CC=C)c2ccccc2-c2ccccc12| https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/C=CCC1(CC=C)c2ccccc2-c2ccccc12/PNG | ![](images/313754005.png)|
+|Cc1ccc(C=C)c2ccccc12| https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/Cc1ccc(C=C)c2ccccc12/PNG |![](images/313870557.png)|
+|Cc1ccccc1\C=C\c1ccccc1	|  https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/Cc1ccccc1\C=C\c1ccccc1/PNG | ![](images/32717.png)| 
 
 9,9-bis(prop-2-enyl)fluorene
 313754005.png
