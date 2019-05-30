@@ -23,10 +23,10 @@ The skeletal formula of a chemical species is a type of molecular structural for
 | Common Name      | IUPAC Name |Molecular Formula | Skeletal Formula | 
 | :-----------: | :-----------:| :-----------: | :----------:| 
 | ethanol      |  ethanol | CH<sub>3</sub>CH<sub>2</sub>OH | ![](/ethanol.png) |
-| acetic acid   | ethanoic acid | CH<sub>3</sub>COOH  |![](/acetic_acid.png)| 
-|cyclohexane | cyclohexane | C<sub>6</sub>H<sub>12</sub>| ![](/cyclohexane.png)  |
+| acetic acid   | ethanoic acid | CH<sub>3</sub>COOH  |![](/acetic_acid.png)|
 |benzene | cyclo-hex-1,3,5-triene | C<sub>6</sub>H<sub>6</sub> |![](/benzene.jpg)  |
-| diphenylmethane | 1,1'-methylenedibenzene | (C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>CH<sub>2</sub>||
+|cyclohexane | cyclohexane | C<sub>6</sub>H<sub>12</sub>| ![](/cyclohexane.png)  |
+| diphenylmethane | 1,1'-methylenedibenzene | (C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>CH<sub>2</sub>|![](/diphenylmethane.png)|
 
 
 
@@ -43,9 +43,9 @@ SMILES formulae use atoms and bond symbols to describe physical properties of ch
 | :-----------: | :-----------:| :-----------: | :----------:| :----------:|
 | ethanol      |  ethanol | CH<sub>3</sub>CH<sub>2</sub>OH | ![](/ethanol.png) | CCO|
 | acetic acid   | ethanoic acid | CH<sub>3</sub>COOH  |![](/acetic_acid.png)| CC(=O)O |
-|cyclohexane | cyclohexane | C<sub>6</sub>H<sub>12</sub>| ![](/cyclohexane.png)  | C1CCCCC1 | 
 |benzene | cyclo-hex-1,3,5-triene | C<sub>6</sub>H<sub>6</sub> |![](/benzene.jpg)  | c1ccccc1  |
-| diphenylmethane | 1,1'-methylenedibenzene |(C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>CH<sub>2</sub>|C1=CC=C(C=C1)CC2=CC=CC=C2|
+|cyclohexane | cyclohexane | C<sub>6</sub>H<sub>12</sub>| ![](/cyclohexane.png)  | C1CCCCC1 | 
+| diphenylmethane | 1,1'-methylenedibenzene |(C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>CH<sub>2</sub>|![](/diphenylmethane.png)|C1=CC=C(C=C1)CC2=CC=CC=C2|
 
 Perhaps the most important property of SMILES, as it relates to data science, is that the data is quite compact compared to other methods. For example, SMILES structures are around 1.6 bytes per atom, on average. This is quite small, especially when compared to standard skeletal image files, which have an averge size of 4.0 kilobytes.
 
