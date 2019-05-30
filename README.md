@@ -3,8 +3,8 @@
 
 ### Table of Contents
 1. [Introduction](#Introduction)
-    1.[Skeletal Formulae](#skeletal_formulae) 
-    2.[SMILES](#SMILES)
+    1. [Skeletal Formulae](#skeletal_formulae) 
+    2. [SMILES](#SMILES)
 2. [Background](#Background)
 3. [Question](#Question)
 4. [Data](#Data)
@@ -81,6 +81,9 @@ This data was available to download for free, and contained 22,327,838 unique SM
 | [W]      |  481713 | 481713 |
 
 The version_id and parent_id are unique identifiers given to each molecule on PubChem. 
+
+![](/less_frequent_symbols.png)
+
 
 ### Matching SMILES Strings to Skeletal Formulae <a name="skeletal_images"></a>
 This is a sub paragraph, formatted in heading 3 style
