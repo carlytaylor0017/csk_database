@@ -68,7 +68,19 @@ Can I build a database of unique SMILES text targets, each corresponding to a un
 I used a combination of sources to get my data, starting with [eMolecules](https://www.emolecules.com) for the unique SMILES strings followed by querying [PubChem](https://pubchem.ncbi.nlm.nih.gov/) for skeletal formulae and IUPAC names. 
 
 ### Cleaning the SMILES Data  <a name="smiles_data"></a>
-This data was available to download for free, and contained 22,327,838 unique SMILES strings. I then 
+This data was available to download for free, and contained 22,327,838 unique SMILES strings.
+
+**Table 3**: Example rows from SMILES data
+
+| isosmiles      | version_id | parent_id | 
+| :-----------: | :-----------:| :-----------: |
+| c1ccccc1      |  479848 | 479848 |
+| Cc1ccccc1C      |  299961464 | 299961464 |
+| CCc1ccccc1      |  475202 | 475202 |
+| BB      |  987804	 | 987804|
+| [W]      |  481713 | 481713 |
+
+The version_id and parent_id are unique identifiers given to each molecule on PubChem. 
 
 ### Matching SMILES Strings to Skeletal Formulae <a name="skeletal_images"></a>
 This is a sub paragraph, formatted in heading 3 style
