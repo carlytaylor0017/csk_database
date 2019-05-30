@@ -14,36 +14,38 @@
 
 ## Introduction <a name="Introduction"></a>
 
+### Skeletal Formulae <a name="skeletal_formulae"></a>
+
+The skeletal formula of a chemical species is a type of molecular structural formula that serves as a shorthand representation of a molecule's bonding and contains some information about its molecular geometry. It is represented in two dimensions, and is usually hand-drawn as a shorthand representation for sketching species or reactions. This shorthand representation is particularly useful in that carbons and hydrogens, the two most common atoms in organic chemistry, don't need to be explicitly drawn. These structural formulas contain the same information that the SMILES strings contain, but are depicted in a different way.
+
+**Table 1**: Examples of SMILES strings contrasting with names and molecular formulae
+
+| Name      |Molecular Formula | Skeletal Formula | 
+| :-----------: | :-----------: | :----------:| 
+| ethanol      |  CH<sub>3</sub>CH<sub>2</sub>OH     | ![](/ethanol.png) |
+| acetic acid   | CH<sub>3</sub>COOH  |![](/acetic_acid.png)| 
+|benzene | C<sub>6</sub>H<sub>6</sub> |![](/benzene.jpg)  |
+|cyclohexane | C<sub>6</sub>H<sub>12</sub>| ![](/cyclohexane.png)  |
+
+
 ### Simplified Molecular-Input Line-Entry System (SMILES) <a name="SMILES"></a>
 
 SMILES is a line notation for describing the structure of chemical elements or compounds using short ASCII strings. These strings can be thought of as a language, where atoms and bond symbols make up the vocabulary. 
 
 SMILES formulae use atoms and bond symbols to describe physical properties of chemical species in the same way that a drawing of the structure conveys information about elements and bonding orientation. This means that the SMILES string for each molecule is synonymous with its structure and since the strings are unique, the name is universal. Anyone in the world who uses unique SMILES to name a molecule will choose the exact same name. These strings can be imported by most molecule editors for conversion into other chemical representations, including structural drawings and spectral predictions. 
 
-**Table 1**: Examples of SMILES strings contrasting with names and molecular formulae
 
-| Name      | SMILES String | Molecular Formula |
-| :-----------: | :-----------: | :----------:|
-| ethanol      | CCO       | CH<sub>3</sub>CH<sub>2</sub>OH |
-| acetic acid   | CC(=O)O | CH<sub>3</sub>COOH |
-|benzene | c1ccccc1|C<sub>6</sub>H<sub>6</sub>|
-|cyclohexane | C1CCCCC1 | C<sub>6</sub>H<sub>12</sub>|
+**Table 2**: Examples of SMILES strings contrasted with skeletal formulae
+
+| Name      |Molecular Formula | Skeletal Formula |   SMILES String |
+| :-----------: | :-----------: | :----------:| :----------: |
+| ethanol      |  CH<sub>3</sub>CH<sub>2</sub>OH     | ![](/ethanol.png) |CCO|
+| acetic acid   | CH<sub>3</sub>COOH  |![](/acetic_acid.png)| CC(=O)O |
+|benzene | C<sub>6</sub>H<sub>6</sub> |![](/benzene.jpg)  | c1ccccc1  |
+|cyclohexane | C<sub>6</sub>H<sub>12</sub>| ![](/cyclohexane.png)  | C1CCCCC1 | 
 
 
 Perhaps the most important property of SMILES, as it relates to data science, is that the data is compact compared to other methods of representing structure. For example, SMILES structures are around 1.6 bytes per atom, on average. This is quite small, especially when compared to standard skeletal image files, which have an averge size of 4.0 kilobytes.
-
-### Skeletal Formulae <a name="skeletal_formulae"></a>
-
-The skeletal formula, also called line-angle formula or shorthand formula, of an organic compound is a type of molecular structural formula that serves as a shorthand representation of a molecule's bonding and some details of its molecular geometry. A skeletal formula shows the skeletal structure or skeleton of a molecule, which is composed of the skeletal atoms that make up the molecule.[1] It is represented in two dimensions, as on a piece of paper. It employs certain conventions to represent carbon and hydrogen atoms, which are the most common in organic chemistry.
-
-**Table 1**: Examples of SMILES strings contrasting with names, molecular formulae and skeletal formulae
-
-| Name      | SMILES String | Molecular Formula | Skeletal Formula |
-| :-----------: | :-----------: | :----------:| :----------: |
-| ethanol      | CCO       | CH<sub>3</sub>CH<sub>2</sub>OH |![](/ethanol.png)|
-| acetic acid   | CC(=O)O | CH<sub>3</sub>COOH | ![](/acetic_acid.png) |
-|benzene | c1ccccc1|C<sub>6</sub>H<sub>6</sub>|![](/benzene.jpg) |
-|cyclohexane | C1CCCCC1 | C<sub>6</sub>H<sub>12</sub>| ![](/cyclohexane.png) |
 
 ## Background <a name="Background"></a>
 “Is there a Crisis in Organic Chemistry Education?” This provocatively titled session from the 2016 American Chemical Society national meeting drew attention from many in attendance. In fact, this question continues to be a polarizing topic of conversation in chemical education. 
