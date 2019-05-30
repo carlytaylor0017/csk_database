@@ -23,11 +23,11 @@ The skeletal formula of a chemical species is a type of molecular structural for
 
 | Common Name      | IUPAC Name |Molecular Formula | Skeletal Formula | 
 | :-----------: | :-----------:| :-----------: | :----------:| 
-| ethanol      |  ethanol | CH<sub>3</sub>CH<sub>2</sub>OH | ![](/ethanol.png) |
-| acetic acid   | ethanoic acid | CH<sub>3</sub>COOH  |![](/acetic_acid.png)|
-|benzene | cyclo-hex-1,3,5-triene | C<sub>6</sub>H<sub>6</sub> |![](/benzene.jpg)  |
-|cyclohexane | cyclohexane | C<sub>6</sub>H<sub>12</sub>| ![](/cyclohexane.png)  |
-| diphenylmethane | 1,1'-methylenedibenzene | (C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>CH<sub>2</sub>|![](/diphenylmethane.png)|
+| ethanol      |  ethanol | CH<sub>3</sub>CH<sub>2</sub>OH | ![](images/ethanol.png) |
+| acetic acid   | ethanoic acid | CH<sub>3</sub>COOH  |![](images/acetic_acid.png)|
+|benzene | cyclo-hex-1,3,5-triene | C<sub>6</sub>H<sub>6</sub> |![](images/benzene.jpg)  |
+|cyclohexane | cyclohexane | C<sub>6</sub>H<sub>12</sub>| ![](images/cyclohexane.png)  |
+| diphenylmethane | 1,1'-methylenedibenzene | (C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>CH<sub>2</sub>|![](images/diphenylmethane.png)|
 
 
 
@@ -42,11 +42,11 @@ SMILES formulae use atoms and bond symbols to describe physical properties of ch
 
 | Common Name      | IUPAC Name |Molecular Formula | Skeletal Formula |  SMILES String |
 | :-----------: | :-----------:| :-----------: | :----------:| :----------:|
-| ethanol      |  ethanol | CH<sub>3</sub>CH<sub>2</sub>OH | ![](/ethanol.png) | CCO|
-| acetic acid   | ethanoic acid | CH<sub>3</sub>COOH  |![](/acetic_acid.png)| CC(=O)O |
-|benzene | cyclo-hex-1,3,5-triene | C<sub>6</sub>H<sub>6</sub> |![](/benzene.jpg)  | c1ccccc1  |
-|cyclohexane | cyclohexane | C<sub>6</sub>H<sub>12</sub>| ![](/cyclohexane.png)  | C1CCCCC1 | 
-| diphenylmethane | 1,1'-methylenedibenzene |(C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>CH<sub>2</sub>|![](/diphenylmethane.png)|C1=CC=C(C=C1)CC2=CC=CC=C2|
+| ethanol      |  ethanol | CH<sub>3</sub>CH<sub>2</sub>OH | ![](images/ethanol.png) | CCO|
+| acetic acid   | ethanoic acid | CH<sub>3</sub>COOH  |![](images/acetic_acid.png)| CC(=O)O |
+|benzene | cyclo-hex-1,3,5-triene | C<sub>6</sub>H<sub>6</sub> |![](images/benzene.jpg)  | c1ccccc1  |
+|cyclohexane | cyclohexane | C<sub>6</sub>H<sub>12</sub>| ![](images/cyclohexane.png)  | C1CCCCC1 | 
+| diphenylmethane | 1,1'-methylenedibenzene |(C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>CH<sub>2</sub>|![](images/diphenylmethane.png)|C1=CC=C(C=C1)CC2=CC=CC=C2|
 
 Perhaps the most important property of SMILES, as it relates to data science, is that the data is quite compact compared to other methods. For example, SMILES structures are around 1.6 bytes per atom, on average. This is quite small, especially when compared to standard skeletal image files, which have an averge size of 4.0 kilobytes.
 
@@ -100,9 +100,9 @@ This is a sub paragraph, formatted in heading 3 style
 
 | SMILES      | Skeletal Formula |
 | :-----------: | :-----------: |
-|C=CCC1(CC=C)c2ccccc2-c2ccccc12	| ![](/313754005.png)|
-|Cc1ccc(C=C)c2ccccc12 | ![](/313870557.png)|
-|Cc1ccccc1\C=C\c1ccccc1	| ![](/32717.png)| 
+|C=CCC1(CC=C)c2ccccc2-c2ccccc12	| ![](images/313754005.png)|
+|Cc1ccc(C=C)c2ccccc12 | ![](images/313870557.png)|
+|Cc1ccccc1\C=C\c1ccccc1	| ![](images/32717.png)| 
 
 9,9-bis(prop-2-enyl)fluorene
 313754005.png
