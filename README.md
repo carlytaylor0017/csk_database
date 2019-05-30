@@ -42,7 +42,7 @@ The skeletal formula, also called line-angle formula or shorthand formula, of an
 | :-----------: | :-----------: | :----------:| :----------: |
 | ethanol      | CCO       | CH<sub>3</sub>CH<sub>2</sub>OH |![](/ethanol.png)|
 | acetic acid   | CC(=O)O | CH<sub>3</sub>COOH | ![](/acetic_acid.png) |
-|benzene | c1ccccc1|C<sub>6</sub>H<sub>6</sub>|![](/benzene.png) |
+|benzene | c1ccccc1|C<sub>6</sub>H<sub>6</sub>|![](/benzene.jpg) |
 |cyclohexane | C1CCCCC1 | C<sub>6</sub>H<sub>12</sub>| ![](/cyclohexane.png) |
 
 ## Background <a name="Background"></a>
