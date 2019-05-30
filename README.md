@@ -82,12 +82,34 @@ This data was available to download for free, and contained 22,327,838 unique SM
 
 The version_id and parent_id are unique identifiers given to each molecule on PubChem. 
 
+Looking into the frequency of symbols contained in each SMILES string yielded the following results.
+
 ![](/less_frequent_symbols.png)
+
+These symbols are the most frequently seen in this dataset.
 
 ![](/more_frequent_symbols.png)
 
 ### Matching SMILES Strings to Skeletal Formulae <a name="skeletal_images"></a>
 This is a sub paragraph, formatted in heading 3 style
+
+| SMILES      | Image URL | Skeletal Formula |
+| :-----------: |:-----------: | :-----------: |
+|C=CCC1(CC=C)c2ccccc2-c2ccccc12| https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/C=CCC1(CC=C)c2ccccc2-c2ccccc12/PNG |![](/313754005.png)|
+|Cc1ccc(C=C)c2ccccc12| https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/Cc1ccc(C=C)c2ccccc12/PNG | ![](/313870557.png)|
+
+| SMILES      | Skeletal Formula |
+| :-----------: | :-----------: |
+|C=CCC1(CC=C)c2ccccc | ![](/313870557.png)|
+
+9,9-bis(prop-2-enyl)fluorene
+313754005.png
+C=CCC1(CC=C)c2ccccc2-c2ccccc12	
+
+1-ethenyl-4-methylnaphthalene
+Cc1ccc(C=C)c2ccccc12
+313870557.png
+
 
 ### Matching SMILES Strings to IUPAC Names <a name="iupac_names"></a>
 This paragraph
