@@ -84,6 +84,7 @@ The version_id and parent_id are unique identifiers given to each molecule on Pu
 
 ![](/less_frequent_symbols.png)
 
+![](/more_frequent_symbols.png)
 
 ### Matching SMILES Strings to Skeletal Formulae <a name="skeletal_images"></a>
 This is a sub paragraph, formatted in heading 3 style
