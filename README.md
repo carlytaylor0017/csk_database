@@ -3,14 +3,15 @@
 
 ### Table of Contents
 1. [Introduction](#Introduction)
-    1. [SMILES](#SMILES)
-    2. [Skeletal Formulae](#skeletal_formulae)
+    1.[Skeletal Formulae](#skeletal_formulae) 
+    2.[SMILES](#SMILES)
 2. [Background](#Background)
 3. [Question](#Question)
 4. [Data](#Data)
-    1. [SMILES Data](#smiles_data)
-    2. [Skeletal Images](#skeletal_images)
-    3. [metadata](#metadata)
+    1. [Cleaning the SMILES Data](#smiles_data)
+    2. [Matching SMILES Strings to Skeletal Images](#skeletal_images)
+    3. [Matching SMILES Strings to IUPAC Names](#iupac_names)
+    4. [Gathering Relevant Metadata](#metadata)
 
 ## Introduction <a name="Introduction"></a>
 
@@ -34,7 +35,7 @@ The skeletal formula of a chemical species is a type of molecular structural for
 
 SMILES is a line notation for describing the structure of chemical elements or compounds using short ASCII strings. These strings can be thought of as a language, where atoms and bond symbols make up the vocabulary. 
 
-SMILES formulae use atoms and bond symbols to describe physical properties of chemical species in the same way that a drawing of the structure conveys information about elements and bonding orientation. This means that the SMILES string for each molecule is synonymous with its structure and since the strings are unique, the name is universal. Anyone in the world who uses unique SMILES to name a molecule will choose the exact same name. These strings can be imported by most molecule editors for conversion into other chemical representations, including structural drawings and spectral predictions. 
+SMILES formulae use atoms and bond symbols to describe physical properties of chemical species in the same way that a drawing of the structure conveys information about elements and bonding orientation. This means that the SMILES string for each molecule is synonymous with its structure and since the strings are unique, the name is universal. These strings can be imported by most molecule editors for conversion into other chemical representations, including structural drawings and spectral predictions. 
 
 
 **Table 2**: SMILES strings contrasted with skeletal formulae
@@ -63,13 +64,17 @@ Machine learning of course! An image captioning model for organic chemical struc
 ## Question <a name="Question"></a>
 Can I build a database of unique SMILES text targets, each corresponding to a unique element or molecule, and use those to obtain chemical names and images of each molecule?
 
-
-
 ## Data <a name="Data"></a>
-The first paragraph text
+I used a combination of sources to get my data, starting with [eMolecules](https://www.emolecules.com) for the unique SMILES strings followed by querying [PubChem](https://pubchem.ncbi.nlm.nih.gov/) for skeletal formulae and IUPAC names. 
 
-### Sub paragraph <a name="subparagraph1"></a>
+### Cleaning the SMILES Data  <a name="smiles_data"></a>
+This data was available to download for free, and contained 22,327,838 unique SMILES strings. I then 
+
+### Matching SMILES Strings to Skeletal Formulae <a name="skeletal_images"></a>
 This is a sub paragraph, formatted in heading 3 style
 
-## Another paragraph <a name="paragraph2"></a>
-The second paragraph text
+### Matching SMILES Strings to IUPAC Names <a name="iupac_names"></a>
+This paragraph
+
+### Gathering Relevant Metadata <a name="metadata"></a>
+Final paragraph
