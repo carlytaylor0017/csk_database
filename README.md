@@ -1,7 +1,7 @@
 # Building a scalable database of chemical names and structures from simplified molecular-input line-entry system (SMILES) strings 
 ## Carly Wolfbrandt
 
-### Table of contents
+### Table of Contents
 1. [Introduction](#Introduction)
     1. [SMILES](#SMILES)
     2. [Skeletal Formulae](#skeletal_formulae)
