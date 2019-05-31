@@ -11,7 +11,7 @@
     1. [Cleaning the SMILES Data](#smiles_data)
     2. [Matching SMILES Strings to Skeletal Formulas](#skeletal_images)
     3. [Matching SMILES Strings to IUPAC Names](#iupac_names)
-    4. [Gathering Relevant Metadata](#metadata)
+5. [Future Work](#future_work)
 
 ## Introduction <a name="Introduction"></a>
 
@@ -65,7 +65,7 @@ This data was available to download for free, and contained 22,327,838 unique SM
 | BB      |  987804	 | 987804|
 | [W]      |  481713 | 481713 |
 
-Since my goal was to have a dataset of only hydrocarbons (compounds containing only hydrogen and carbon), I began by investigating at what frequency each element occured in the dataset. Since the frequency of elements in the SMILES dataset is correlated to the actual abundance of compounds containing each element, I expected carbon and hydrogen to be the most abundant elements. 
+Since my goal was to have a dataset of only hydrocarbons (compounds containing only hydrogen and carbon), I began by investigating the frequency of each element in the dataset. Since the frequency of elements in the SMILES dataset is correlated to the actual abundance of compounds containing each element, I expected carbon and hydrogen to be the most abundant elements. 
 
 Looking at the frequency of each element and symbol in the data, this assumption was correct. Since the scale varied from 1000 to 1.75 x 10<sup>8</sup>, I broke down the frequency into two graphs.
 
@@ -75,10 +75,10 @@ Looking at the frequency of each element and symbol in the data, this assumption
 
 It is indeed true that the elements corresponding to organic molecules are the most abundant, with carbon (C and c), hydrogen (H), nitrogen (N) and oxygen (O) occuring in almost every compound.
 
-
 ![](images/less_frequent_symbols.png)
 
 **Figure 2**: Frequency of the rarer elements and symbols
+
 On the low end are rare elements, such as elemental tungsten. 
 
 After learning what the data looks like, I removed all rows containing elements other than hydrogen and carbon. Doing so shrunk my dataset down to a more manageable 2,135 rows.
@@ -103,4 +103,10 @@ Names of each compound were also available on [PubChem](https://pubchem.ncbi.nlm
 |Cc1ccc(C=C)c2ccccc12| https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/Cc1ccc(C=C)c2ccccc12/JSON | 1-ethenyl-4-methylnaphthalene|
 |Cc1ccccc1\C=C\c1ccccc1	|  https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/Cc1ccccc1\C=C\c1ccccc1/JSON | 1-methyl-2-[(E)-2-phenylethenyl]benzene
 
-| 
+Parsing the JSON in the above links has given me more metadata than I intended to gather. The completed dataset has up to 1,342 separate attributes for each molecule. 
+
+## Future Work <a name="future_work"></a>
+
+In order to have a dataset that is usable to model a wide variety of molecules, I will need to expand the dataset to include chemical species other than hydrocarbons. Scaling up to cleaning and matching 23 million compounds with their images and names will need to be done on an AWS instance using Spark.
+
+Furthermore, the above methodology of generating links does not work for some SMILES strings. For example, strings with triple bonds (designated with a #) break the URL strings and return 400 errors. Any large scale querying will need to be through the [PubChem PUG REST API ](https://pubchemdocs.ncbi.nlm.nih.gov/pug-rest). 
