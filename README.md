@@ -25,7 +25,6 @@ The skeletal formula of a chemical species is a type of molecular structural for
 | :-----------: | :-----------:| :-----------: | :----------:| 
 | ethanol      |  ethanol | CH<sub>3</sub>CH<sub>2</sub>OH | ![](images/ethanol.png) |
 | acetic acid   | ethanoic acid | CH<sub>3</sub>COOH  |![](images/acetic_acid.png)|
-|benzene | cyclo-hex-1,3,5-triene | C<sub>6</sub>H<sub>6</sub> |![](images/benzene.jpg)  |
 |cyclohexane | cyclohexane | C<sub>6</sub>H<sub>12</sub>| ![](images/cyclohexane.png)  |
 | diphenylmethane | 1,1'-methylenedibenzene | (C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>CH<sub>2</sub>|![](images/diphenylmethane.png)|
 
@@ -42,7 +41,6 @@ SMILES strings use atoms and bond symbols to describe physical properties of che
 | :-----------: | :-----------:| :-----------: | :----------:| :----------:|
 | ethanol      |  ethanol | CH<sub>3</sub>CH<sub>2</sub>OH | ![](images/ethanol.png) | CCO|
 | acetic acid   | ethanoic acid | CH<sub>3</sub>COOH  |![](images/acetic_acid.png)| CC(=O)O |
-|benzene | cyclo-hex-1,3,5-triene | C<sub>6</sub>H<sub>6</sub> |![](images/benzene.jpg)  | c1ccccc1  |
 |cyclohexane | cyclohexane | C<sub>6</sub>H<sub>12</sub>| ![](images/cyclohexane.png)  | C1CCCCC1 | 
 | diphenylmethane | 1,1'-methylenedibenzene |(C<sub>6</sub>H<sub>5</sub>)<sub>2</sub>CH<sub>2</sub>|![](images/diphenylmethane.png)|C1=CC=C(C=C1)CC2=CC=CC=C2|
 
@@ -52,7 +50,7 @@ Perhaps the most important property of SMILES, as it relates to data science, is
 Can I build a database of unique SMILES text targets, each corresponding to a unique element or molecule, and use those to obtain chemical names and images of each molecule?
 
 ## Data <a name="Data"></a>
-I used a combination of sources to get my data, starting with [eMolecules](https://www.emolecules.com) for the unique SMILES strings followed by querying [PubChem](https://pubchem.ncbi.nlm.nih.gov/) for skeletal formulasand IUPAC names. 
+I used a combination of sources to get my data, starting with [eMolecules](https://www.emolecules.com) for the unique SMILES strings followed by querying [PubChem](https://pubchem.ncbi.nlm.nih.gov/) for skeletal formulas and IUPAC names. 
 
 ### Cleaning the SMILES Data  <a name="smiles_data"></a>
 This data was available to download for free, and contained 22,327,838 unique SMILES strings.
@@ -97,7 +95,12 @@ With my hydrocarbon dataset, I was now able to query [PubChem](https://pubchem.n
 
 ### Matching SMILES Strings to IUPAC Names <a name="iupac_names"></a>
 
-After the 
+Names of each compound were also available on [PubChem](https://pubchem.ncbi.nlm.nih.gov/), stored in .json 
 
-### Gathering Relevant Metadata <a name="metadata"></a>
-Final paragraph
+| SMILES      | JSON URL | IUPAC Preffered Name | 
+| :-----------: |:-----------: | :-----------: |
+|C=CCC1(CC=C)c2ccccc2-c2ccccc12| https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/C=CCC1(CC=C)c2ccccc2-c2ccccc12/JSON |9,9-bis(prop-2-enyl)fluorene |
+|Cc1ccc(C=C)c2ccccc12| https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/Cc1ccc(C=C)c2ccccc12/JSON | 1-ethenyl-4-methylnaphthalene|
+|Cc1ccccc1\C=C\c1ccccc1	|  https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/Cc1ccccc1\C=C\c1ccccc1/JSON | 1-methyl-2-[(E)-2-phenylethenyl]benzene
+
+| 
