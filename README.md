@@ -5,13 +5,12 @@
 1. [Introduction](#Introduction)
     1. [Skeletal Formulas](#skeletal_formulas) 
     2. [SMILES](#SMILES)
-2. [Background](#Background)
-3. [Question](#Question)
-4. [Data](#Data)
+2. [Question](#Question)
+3. [Data](#Data)
     1. [Cleaning the SMILES Data](#smiles_data)
     2. [Matching SMILES Strings to Skeletal Formulas](#skeletal_images)
     3. [Matching SMILES Strings to IUPAC Names](#iupac_names)
-5. [Future Work](#future_work)
+4. [Future Work](#future_work)
 
 ## Introduction <a name="Introduction"></a>
 
